@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useCallback, useEffect } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { Search, X } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -20,8 +20,7 @@ export function SearchBar({
   defaultValue = '',
 }: SearchBarProps) {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const [query, setQuery] = useState(defaultValue || searchParams.get('q') || '');
+  const [query, setQuery] = useState(defaultValue || '');
 
   useEffect(() => {
     if (defaultValue) {
@@ -58,6 +57,7 @@ export function SearchBar({
           placeholder={placeholder}
           autoFocus={autoFocus}
           className="h-12 w-full rounded-xl border-slate-300 bg-white pl-10 pr-10 text-slate-900 placeholder:text-slate-400 focus:border-red-500 focus:ring-red-500/20 shadow-sm"
+          suppressHydrationWarning
         />
         {query && (
           <Button
