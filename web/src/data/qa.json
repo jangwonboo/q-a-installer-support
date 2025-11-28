@@ -1,0 +1,903 @@
+[
+  {
+    "id": "q-001",
+    "number": 1,
+    "categoryId": "installation-env",
+    "question": "도어가드는 어떤 주거 형태에 설치할 수 있나요?",
+    "answer": "아파트, 공동주택(빌라, 원룸), 오피스텔, 단독주택 등에 설치가 가능합니다.",
+    "citations": [4010],
+    "tags": ["설치", "주거형태", "아파트", "빌라", "단독주택", "오피스텔"]
+  },
+  {
+    "id": "q-002",
+    "number": 2,
+    "categoryId": "installation-env",
+    "question": "현관문이 안으로 열리는 구조인데 설치 가능한가요?",
+    "answer": "아니요, 도어가드는 밖으로 열리는 여닫이문에만 설치할 수 있습니다.",
+    "citations": [3447],
+    "tags": ["설치", "문구조", "여닫이문", "설치불가"]
+  },
+  {
+    "id": "q-003",
+    "number": 3,
+    "categoryId": "installation-env",
+    "question": "미닫이문에도 설치가 가능한가요?",
+    "answer": "미닫이문에는 설치가 불가능합니다.",
+    "citations": [3449],
+    "tags": ["설치", "미닫이문", "설치불가"]
+  },
+  {
+    "id": "q-004",
+    "number": 4,
+    "categoryId": "installation-env",
+    "question": "단독주택 외부에 설치할 때 필수 조건은 무엇인가요?",
+    "answer": "출입문 상단에 비를 막아줄 처마가 반드시 있어야 합니다.",
+    "citations": [4028],
+    "tags": ["설치", "단독주택", "처마", "외부설치"]
+  },
+  {
+    "id": "q-005",
+    "number": 5,
+    "categoryId": "installation-env",
+    "question": "처마의 규격 조건은 어떻게 되나요?",
+    "answer": "처마의 넓이는 출입문 넓이 이상이어야 하며, 앞으로 돌출된 길이가 70cm 이상이어야 합니다.",
+    "citations": [4037],
+    "tags": ["설치", "처마", "규격", "70cm"]
+  },
+  {
+    "id": "q-006",
+    "number": 6,
+    "categoryId": "installation-env",
+    "question": "처마가 있어도 설치가 불가능한 경우가 있나요?",
+    "answer": "처마가 있더라도 문 상부 틈으로 비나 물이 흘러 들어올 수 있는 구조라면 침수 우려로 설치가 불가능합니다.",
+    "citations": [4037],
+    "tags": ["설치", "처마", "침수", "설치불가"]
+  },
+  {
+    "id": "q-007",
+    "number": 7,
+    "categoryId": "installation-env",
+    "question": "문과 문틀 사이의 틈새는 어느 정도여야 하나요?",
+    "answer": "최소 1.1mm ~ 1.2mm 이상의 틈이 있어야 케이블 단선 없이 설치가 가능합니다 (A4 용지 약 10장 두께).",
+    "citations": [3887, 6496],
+    "tags": ["설치", "문틈", "틈새", "케이블", "1.1mm"]
+  },
+  {
+    "id": "q-008",
+    "number": 8,
+    "categoryId": "installation-env",
+    "question": "일반문의 경우 문 두께 조건은 어떻게 되나요?",
+    "answer": "문의 두께가 30mm ~ 50mm 이내일 경우 설치 가능합니다.",
+    "citations": [6225],
+    "tags": ["설치", "문두께", "30mm", "50mm"]
+  },
+  {
+    "id": "q-009",
+    "number": 9,
+    "categoryId": "installation-env",
+    "question": "이중문이나 삼중문의 문 두께 조건은요?",
+    "answer": "문 두께가 50mm 미만이어야 하며, 문턱(단차)이 12~20mm여야 설치가 가능합니다.",
+    "citations": [6216],
+    "tags": ["설치", "이중문", "삼중문", "문두께", "문턱"]
+  },
+  {
+    "id": "q-010",
+    "number": 10,
+    "categoryId": "installation-env",
+    "question": "틈새가 없으면 설치를 못하나요?",
+    "answer": "네, 문틈이 없거나 구조적(클로저, 방충망 등)으로 간섭이 있으면 설치가 불가하며 고객에게 안내가 필요합니다.",
+    "citations": [3875],
+    "tags": ["설치", "문틈", "클로저", "방충망", "설치불가"]
+  },
+  {
+    "id": "q-011",
+    "number": 11,
+    "categoryId": "installation-env",
+    "question": "설치 전 네트워크 속도는 어느 정도가 되어야 하나요?",
+    "answer": "벤치비 APP 측정 기준 업로드 속도가 3Mbps 이상이어야 정상적인 영상 전송이 가능합니다.",
+    "citations": [3863],
+    "tags": ["네트워크", "속도", "업로드", "3Mbps", "벤치비"]
+  },
+  {
+    "id": "q-012",
+    "number": 12,
+    "categoryId": "installation-env",
+    "question": "업로드 속도가 3Mbps 미만이면 어떻게 하나요?",
+    "answer": "설치 불가 기준을 설명하거나, 화질을 VGA(저화질)로 설정하도록 권고해야 합니다.",
+    "citations": [6627],
+    "tags": ["네트워크", "속도", "VGA", "저화질"]
+  },
+  {
+    "id": "q-013",
+    "number": 13,
+    "categoryId": "installation-env",
+    "question": "Wi-Fi 신호 세기(RSSI) 정상 기준은 무엇인가요?",
+    "answer": "-65dBm 이상이어야 안정적입니다 (예: -40dBm은 매우 좋음, -70dBm은 나쁨).",
+    "citations": [3870, 6629],
+    "tags": ["Wi-Fi", "신호세기", "RSSI", "dBm"]
+  },
+  {
+    "id": "q-014",
+    "number": 14,
+    "categoryId": "installation-env",
+    "question": "신호 세기가 약하면(-60dBm 이하) 어떻게 해야 하나요?",
+    "answer": "리피터(Wi-Fi 증폭기) 설치를 통해 신호를 개선해야 합니다.",
+    "citations": [3871],
+    "tags": ["Wi-Fi", "신호세기", "리피터", "증폭기"]
+  },
+  {
+    "id": "q-015",
+    "number": 15,
+    "categoryId": "installation-env",
+    "question": "주변 환경에 의한 오작동 요인이 있나요?",
+    "answer": "복도식 아파트나 단독주택의 경우 햇빛, 차량, 소동물 등에 의해 PIR 센서가 오작동할 수 있습니다.",
+    "citations": [4074],
+    "tags": ["오작동", "PIR센서", "햇빛", "소동물"]
+  },
+  {
+    "id": "q-016",
+    "number": 16,
+    "categoryId": "hardware",
+    "question": "도어가드에 들어가는 배터리 규격은 무엇인가요?",
+    "answer": "알카라인 1.5V D형 건전지(LR20) 4개가 들어갑니다.",
+    "citations": [2293],
+    "tags": ["배터리", "건전지", "D형", "LR20", "알카라인"]
+  },
+  {
+    "id": "q-017",
+    "number": 17,
+    "categoryId": "hardware",
+    "question": "망간 건전지를 사용해도 되나요?",
+    "answer": "아니요, 반드시 알카라인 건전지를 사용해야 합니다.",
+    "citations": [6441],
+    "tags": ["배터리", "건전지", "망간", "알카라인"]
+  },
+  {
+    "id": "q-018",
+    "number": 18,
+    "categoryId": "hardware",
+    "question": "배터리는 얼마나 사용할 수 있나요?",
+    "answer": "주간 모드 동영상 촬영 10회(15초) 기준으로 약 6개월간 사용 가능합니다.",
+    "citations": [2567],
+    "tags": ["배터리", "수명", "6개월"]
+  },
+  {
+    "id": "q-019",
+    "number": 19,
+    "categoryId": "hardware",
+    "question": "브라켓 고정 나사는 어느 방향으로 풀어야 하나요?",
+    "answer": "육각 렌치를 사용하여 반시계 방향으로 돌리면 풀어집니다.",
+    "citations": [3481],
+    "tags": ["브라켓", "나사", "육각렌치", "설치"]
+  },
+  {
+    "id": "q-020",
+    "number": 20,
+    "categoryId": "hardware",
+    "question": "개폐감지 자석은 어떻게 부착해야 하나요?",
+    "answer": "자석의 삼각형(▽) 표시와 본체의 표시가 서로 맞닿도록 일치시켜 부착해야 합니다.",
+    "citations": [3528],
+    "tags": ["자석", "개폐감지", "부착", "삼각형표시"]
+  },
+  {
+    "id": "q-021",
+    "number": 21,
+    "categoryId": "hardware",
+    "question": "자석과 본체 사이의 간격(Pull-in)은 어느 정도여야 하나요?",
+    "answer": "20mm 이내일 경우 문이 닫힌 것으로 인식합니다.",
+    "citations": [2840],
+    "tags": ["자석", "간격", "Pull-in", "20mm"]
+  },
+  {
+    "id": "q-022",
+    "number": 22,
+    "categoryId": "hardware",
+    "question": "자석과 본체의 상하 단차 허용 범위는요?",
+    "answer": "단차가 10mm 이상 벌어지면 안 되며, 이 경우 동봉된 스페이서를 사용해 높이를 맞춰야 합니다.",
+    "citations": [3533],
+    "tags": ["자석", "단차", "스페이서", "10mm"]
+  },
+  {
+    "id": "q-023",
+    "number": 23,
+    "categoryId": "hardware",
+    "question": "이중문/삼중문에는 브라켓을 어떻게 설치하나요?",
+    "answer": "브라켓 대신 동봉된 양면테이프를 사용하여 문 상단에 부착합니다.",
+    "citations": [3427, 3494],
+    "tags": ["이중문", "삼중문", "브라켓", "양면테이프"]
+  },
+  {
+    "id": "q-024",
+    "number": 24,
+    "categoryId": "hardware",
+    "question": "케이블 설치 시 주의할 점은 무엇인가요?",
+    "answer": "케이블을 강하게 잡아당기지 말고, 보호 스티커를 꺾어서 들뜨지 않게 부착해야 합니다.",
+    "citations": [3502, 3518],
+    "tags": ["케이블", "설치", "보호스티커"]
+  },
+  {
+    "id": "q-025",
+    "number": 25,
+    "categoryId": "hardware",
+    "question": "설치 위치 청소는 왜 필요한가요?",
+    "answer": "먼지나 물기가 있으면 양면테이프 접착력이 떨어져 기기가 떨어질 수 있으므로 이물질과 물기를 제거해야 합니다.",
+    "citations": [3438, 4384],
+    "tags": ["청소", "양면테이프", "접착력", "먼지"]
+  },
+  {
+    "id": "q-026",
+    "number": 26,
+    "categoryId": "hardware",
+    "question": "ADT 명판은 어디에 부착하나요? (문 손잡이가 왼쪽일 때)",
+    "answer": "문 우측 상단 모서리에서 가로/세로 25mm 띄우고 부착합니다.",
+    "citations": [6797],
+    "tags": ["ADT명판", "부착위치", "손잡이왼쪽"]
+  },
+  {
+    "id": "q-027",
+    "number": 27,
+    "categoryId": "hardware",
+    "question": "ADT 명판은 어디에 부착하나요? (문 손잡이가 오른쪽일 때)",
+    "answer": "문 좌측 상단 모서리에서 가로/세로 25mm 띄우고 부착합니다.",
+    "citations": [6803],
+    "tags": ["ADT명판", "부착위치", "손잡이오른쪽"]
+  },
+  {
+    "id": "q-028",
+    "number": 28,
+    "categoryId": "hardware",
+    "question": "카메라의 화각은 어떻게 되나요?",
+    "answer": "132도의 광각 촬영을 지원합니다.",
+    "citations": [2338],
+    "tags": ["카메라", "화각", "132도", "광각"]
+  },
+  {
+    "id": "q-029",
+    "number": 29,
+    "categoryId": "hardware",
+    "question": "야간 촬영 시 가시거리는 얼마나 되나요?",
+    "answer": "IR LED를 통해 최대 5미터까지 식별 가능합니다.",
+    "citations": [2338],
+    "tags": ["야간촬영", "IR LED", "가시거리", "5미터"]
+  },
+  {
+    "id": "q-030",
+    "number": 30,
+    "categoryId": "hardware",
+    "question": "제품의 방수/방진 등급은요?",
+    "answer": "IP65 등급을 지원합니다.",
+    "citations": [2487],
+    "tags": ["방수", "방진", "IP65"]
+  },
+  {
+    "id": "q-031",
+    "number": 31,
+    "categoryId": "network",
+    "question": "5GHz Wi-Fi도 연결 가능한가요?",
+    "answer": "아니요, 2.4GHz 대역의 Wi-Fi만 지원합니다.",
+    "citations": [2338],
+    "tags": ["Wi-Fi", "5GHz", "2.4GHz", "연결"]
+  },
+  {
+    "id": "q-032",
+    "number": 32,
+    "categoryId": "network",
+    "question": "Wi-Fi 이름(SSID)을 한글로 해도 되나요?",
+    "answer": "한글 SSID는 연결이 원활하지 않을 수 있으므로 영문 사용을 권장합니다.",
+    "citations": [7802],
+    "tags": ["Wi-Fi", "SSID", "한글", "영문"]
+  },
+  {
+    "id": "q-033",
+    "number": 33,
+    "categoryId": "network",
+    "question": "밴드 스티어링(2.4G/5G 통합) 공유기는 어떻게 해야 하나요?",
+    "answer": "2.4GHz 전용 SSID를 별도로 설정하여 연결해야 합니다.",
+    "citations": [4115],
+    "tags": ["밴드스티어링", "공유기", "2.4GHz", "SSID"]
+  },
+  {
+    "id": "q-034",
+    "number": 34,
+    "categoryId": "network",
+    "question": "AP 모드(기기 등록 모드)는 어떻게 진입하나요?",
+    "answer": "도어가드 뒷면의 Status 버튼을 5초 이상 길게 누르면 됩니다.",
+    "citations": [3265],
+    "tags": ["AP모드", "등록모드", "Status버튼", "5초"]
+  },
+  {
+    "id": "q-035",
+    "number": 35,
+    "categoryId": "network",
+    "question": "AP 모드 진입 성공은 어떻게 확인하나요?",
+    "answer": "전면 LED(Sensing/Error)가 동시에 5회 점멸 후 교차 점멸하며, \"기기 등록 모드입니다\" 음성이 나옵니다.",
+    "citations": [3298, 6984],
+    "tags": ["AP모드", "LED", "점멸", "음성안내"]
+  },
+  {
+    "id": "q-036",
+    "number": 36,
+    "categoryId": "network",
+    "question": "AP 모드는 얼마나 유지되나요?",
+    "answer": "5분간 유지되며, 접속이 없으면 일반 모드로 복귀합니다.",
+    "citations": [3266],
+    "tags": ["AP모드", "유지시간", "5분"]
+  },
+  {
+    "id": "q-037",
+    "number": 37,
+    "categoryId": "network",
+    "question": "리피터(증폭기)는 어디에 설치해야 하나요?",
+    "answer": "공유기와 도어가드 사이에 장애물을 피해 최대한 직선거리에 설치해야 합니다.",
+    "citations": [4119],
+    "tags": ["리피터", "증폭기", "설치위치", "직선거리"]
+  },
+  {
+    "id": "q-038",
+    "number": 38,
+    "categoryId": "network",
+    "question": "리피터 설치 시 네트워크 이름(SSID)은 어떻게 설정하나요?",
+    "answer": "'ADT_DOORGUARD' 등으로 변경하여 기존 공유기와 구분하는 것이 좋습니다.",
+    "citations": [4157],
+    "tags": ["리피터", "SSID", "ADT_DOORGUARD"]
+  },
+  {
+    "id": "q-039",
+    "number": 39,
+    "categoryId": "network",
+    "question": "리피터의 보안/암호화 설정은 무엇을 권장하나요?",
+    "answer": "WPA2PSK + AES 방식을 권장합니다.",
+    "citations": [4161],
+    "tags": ["리피터", "보안", "WPA2PSK", "AES"]
+  },
+  {
+    "id": "q-040",
+    "number": 40,
+    "categoryId": "network",
+    "question": "호환성이 좋지 않은 공유기 모델이 있나요?",
+    "answer": "D'LIVE, TP-link 일부 모델이나 5년 이상 된 노후 공유기는 끊김이 발생할 수 있어 리피터 사용이 권장됩니다.",
+    "citations": [4078],
+    "tags": ["공유기", "호환성", "D'LIVE", "TP-link", "노후공유기"]
+  },
+  {
+    "id": "q-041",
+    "number": 41,
+    "categoryId": "network",
+    "question": "Wi-Fi 신호 세기는 어떻게 확인하나요?",
+    "answer": "설치 앱의 '장치 Wi-Fi 리스트' 또는 'Wifi Analyzer' 앱을 통해 확인할 수 있습니다.",
+    "citations": [6566],
+    "tags": ["Wi-Fi", "신호세기", "Wifi Analyzer", "앱"]
+  },
+  {
+    "id": "q-042",
+    "number": 42,
+    "categoryId": "network",
+    "question": "인터넷 업로드 속도가 느리면 어떤 문제가 발생하나요?",
+    "answer": "영상 끊김, 누락이 발생할 수 있으며 화질을 낮춰야 합니다.",
+    "citations": [6613],
+    "tags": ["업로드속도", "영상끊김", "화질"]
+  },
+  {
+    "id": "q-043",
+    "number": 43,
+    "categoryId": "network",
+    "question": "공유기를 교체하여 Wi-Fi 연결이 끊겼을 때 어떻게 하나요?",
+    "answer": "앱의 '기기관리 > Wi-Fi 변경' 메뉴에서 고객이 셀프로 재설정할 수 있습니다.",
+    "citations": [5860],
+    "tags": ["공유기교체", "Wi-Fi변경", "재설정"]
+  },
+  {
+    "id": "q-044",
+    "number": 44,
+    "categoryId": "network",
+    "question": "도어가드의 MAC 주소는 어디서 확인하나요?",
+    "answer": "기기 본체 라벨이나 박스 외부 라벨에서 확인할 수 있습니다.",
+    "citations": [6877],
+    "tags": ["MAC주소", "라벨", "확인"]
+  },
+  {
+    "id": "q-045",
+    "number": 45,
+    "categoryId": "network",
+    "question": "네트워크 연결 상태 LED 표시는?",
+    "answer": "정상 연결 시 파란색(Sensing) LED가 점등됩니다.",
+    "citations": [3261],
+    "tags": ["LED", "네트워크", "파란색", "연결상태"]
+  },
+  {
+    "id": "q-046",
+    "number": 46,
+    "categoryId": "device-setup",
+    "question": "기기 등록 방식에는 어떤 것이 있나요?",
+    "answer": "QR 코드를 스캔하는 방식과 AP 모드로 수동 등록하는 방식이 있습니다.",
+    "citations": [3909, 3895],
+    "tags": ["기기등록", "QR코드", "AP모드", "수동등록"]
+  },
+  {
+    "id": "q-047",
+    "number": 47,
+    "categoryId": "device-setup",
+    "question": "QR 등록 시 인식이 잘 안 됩니다.",
+    "answer": "스마트폰 화면 밝기를 최대화하고, 카메라 렌즈 앞 10~20cm 거리에서 비춰주세요.",
+    "citations": [3918],
+    "tags": ["QR등록", "인식불량", "화면밝기", "거리"]
+  },
+  {
+    "id": "q-048",
+    "number": 48,
+    "categoryId": "device-setup",
+    "question": "QR 등록 성공 시 어떤 반응이 있나요?",
+    "answer": "\"띵동\" 소리와 함께 \"기기 등록을 시작합니다\"라는 멘트가 나옵니다.",
+    "citations": [6944],
+    "tags": ["QR등록", "성공", "소리", "멘트"]
+  },
+  {
+    "id": "q-049",
+    "number": 49,
+    "categoryId": "device-setup",
+    "question": "고객 정보를 조회하려면 무엇이 필요한가요?",
+    "answer": "계약 번호(9자리) 또는 어카운트 정보가 필요합니다.",
+    "citations": [3557],
+    "tags": ["고객정보", "계약번호", "어카운트"]
+  },
+  {
+    "id": "q-050",
+    "number": 50,
+    "categoryId": "device-setup",
+    "question": "'등록된 기기를 삭제'하려면 어떻게 하나요?",
+    "answer": "대원 앱에서 장치 MAC 주소 마지막 4자리를 입력하여 삭제할 수 있습니다.",
+    "citations": [3586],
+    "tags": ["기기삭제", "MAC주소", "대원앱"]
+  },
+  {
+    "id": "q-051",
+    "number": 51,
+    "categoryId": "device-setup",
+    "question": "설치 완료 처리를 위한 필수 신호는 무엇인가요?",
+    "answer": "설치완료, 마스킹검수, 01후OFF(해제), 01후ON(경비), PANIC 2(비상벨) 신호가 확인되어야 합니다.",
+    "citations": [9076],
+    "tags": ["설치완료", "필수신호", "마스킹검수", "PANIC"]
+  },
+  {
+    "id": "q-052",
+    "number": 52,
+    "categoryId": "device-setup",
+    "question": "프라이버시 마스킹은 왜 설정해야 하나요?",
+    "answer": "이웃집 현관이나 복도 등 타인의 사생활 침해를 방지하기 위함입니다.",
+    "citations": [7604],
+    "tags": ["프라이버시마스킹", "사생활", "이웃집"]
+  },
+  {
+    "id": "q-053",
+    "number": 53,
+    "categoryId": "device-setup",
+    "question": "프라이버시 마스킹 영역은 몇 개까지 설정 가능한가요?",
+    "answer": "최대 4개의 직사각형 영역을 설정할 수 있습니다.",
+    "citations": [3041],
+    "tags": ["프라이버시마스킹", "영역", "4개"]
+  },
+  {
+    "id": "q-054",
+    "number": 54,
+    "categoryId": "device-setup",
+    "question": "마스킹 설정 후 절차는 어떻게 되나요?",
+    "answer": "'적용' 후 반드시 '마스킹 검수 요청'을 하여 관제실의 승인을 받아야 합니다.",
+    "citations": [7703],
+    "tags": ["마스킹", "검수요청", "관제실", "승인"]
+  },
+  {
+    "id": "q-055",
+    "number": 55,
+    "categoryId": "device-setup",
+    "question": "테스트 모드는 무엇인가요?",
+    "answer": "상황실로 신호를 전송하지 않고 경비/해제 기능을 점검하는 모드입니다.",
+    "citations": [7674],
+    "tags": ["테스트모드", "신호", "경비", "해제"]
+  },
+  {
+    "id": "q-056",
+    "number": 56,
+    "categoryId": "video-camera",
+    "question": "영상 해상도 설정은 어떤 옵션이 있나요?",
+    "answer": "VGA(저화질), HD(고화질), FHD(초고화질) 중 선택 가능하며 기본값은 HD입니다.",
+    "citations": [3009],
+    "tags": ["해상도", "VGA", "HD", "FHD", "화질"]
+  },
+  {
+    "id": "q-057",
+    "number": 57,
+    "categoryId": "video-camera",
+    "question": "인터넷 속도별 권장 해상도는?",
+    "answer": "3Mbps 미만은 VGA, 3~30Mbps는 HD, 30Mbps 이상은 FHD를 권장합니다.",
+    "citations": [6631],
+    "tags": ["해상도", "인터넷속도", "VGA", "HD", "FHD"]
+  },
+  {
+    "id": "q-058",
+    "number": 58,
+    "categoryId": "video-camera",
+    "question": "실시간 영상은 얼마나 볼 수 있나요?",
+    "answer": "배터리 보호를 위해 최대 1분 30초까지 시청 가능합니다.",
+    "citations": [2556],
+    "tags": ["실시간영상", "시청시간", "1분30초", "배터리"]
+  },
+  {
+    "id": "q-059",
+    "number": 59,
+    "categoryId": "video-camera",
+    "question": "움직임 감지 알림 주기는 어떻게 설정하나요?",
+    "answer": "즉시, 20분, 1시간 간격 중 선택할 수 있습니다.",
+    "citations": [3013],
+    "tags": ["움직임감지", "알림주기", "설정"]
+  },
+  {
+    "id": "q-060",
+    "number": 60,
+    "categoryId": "video-camera",
+    "question": "영상 녹화 시간은 얼마나 되나요?",
+    "answer": "30초, 1분, 1분 30초 중 설정 가능합니다 (기본 1분 30초).",
+    "citations": [3065],
+    "tags": ["녹화시간", "30초", "1분", "1분30초"]
+  },
+  {
+    "id": "q-061",
+    "number": 61,
+    "categoryId": "video-camera",
+    "question": "야간 모드 설정 옵션은?",
+    "answer": "자동, 항상 사용, 사용 안함 중 선택 가능합니다 (기본값 자동).",
+    "citations": [3030],
+    "tags": ["야간모드", "자동", "설정"]
+  },
+  {
+    "id": "q-062",
+    "number": 62,
+    "categoryId": "video-camera",
+    "question": "영상 녹화 조건 '경비 중'과 '항상'의 차이는?",
+    "answer": "'경비 중'은 경비 상태일 때만 녹화하고, '항상'은 경비 여부와 상관없이 24시간 녹화합니다.",
+    "citations": [3032],
+    "tags": ["녹화조건", "경비중", "항상", "24시간"]
+  },
+  {
+    "id": "q-063",
+    "number": 63,
+    "categoryId": "video-camera",
+    "question": "PIR 민감도를 조절해야 하는 경우는?",
+    "answer": "현관이 좁거나 앞집과의 거리가 가까워 오감지가 많을 때 민감도를 낮춥니다.",
+    "citations": [3077],
+    "tags": ["PIR", "민감도", "오감지", "조절"]
+  },
+  {
+    "id": "q-064",
+    "number": 64,
+    "categoryId": "video-camera",
+    "question": "PIR 원거리/근거리 센서가 따로 있나요?",
+    "answer": "네, 좌우 2개의 PIR 센서가 각각 근거리와 원거리를 담당합니다.",
+    "citations": [2691],
+    "tags": ["PIR센서", "원거리", "근거리"]
+  },
+  {
+    "id": "q-065",
+    "number": 65,
+    "categoryId": "video-camera",
+    "question": "영상을 영구 보관하려면 어떻게 해야 하나요?",
+    "answer": "앱의 '지난 영상 목록'에서 스마트폰 갤러리로 직접 다운로드해야 합니다.",
+    "citations": [164],
+    "tags": ["영상보관", "다운로드", "갤러리"]
+  },
+  {
+    "id": "q-066",
+    "number": 66,
+    "categoryId": "video-camera",
+    "question": "다운로드하지 않은 영상의 보관 기간은?",
+    "answer": "렌탈형 상품 기준 30일간 보관 후 자동 삭제됩니다.",
+    "citations": [3965],
+    "tags": ["영상보관", "30일", "자동삭제"]
+  },
+  {
+    "id": "q-067",
+    "number": 67,
+    "categoryId": "video-camera",
+    "question": "양방향 대화 기능은 어떻게 사용하나요?",
+    "answer": "실시간 영상 화면에서 '대화하기' 버튼을 누르면 됩니다.",
+    "citations": [201],
+    "tags": ["양방향대화", "대화하기", "실시간영상"]
+  },
+  {
+    "id": "q-068",
+    "number": 68,
+    "categoryId": "video-camera",
+    "question": "안내음 송출 기능은 무엇인가요?",
+    "answer": "\"문 앞에 두고 가세요\" 등의 사전 녹음된 음성을 내보내는 기능입니다.",
+    "citations": [253],
+    "tags": ["안내음", "음성송출", "사전녹음"]
+  },
+  {
+    "id": "q-069",
+    "number": 69,
+    "categoryId": "security",
+    "question": "경비 설정 시 경보음 송출 시간은?",
+    "answer": "문 열림 감지 시 해제 유도를 위해 15초 또는 30초간 경보음이 울립니다.",
+    "citations": [2989],
+    "tags": ["경비", "경보음", "15초", "30초"]
+  },
+  {
+    "id": "q-070",
+    "number": 70,
+    "categoryId": "security",
+    "question": "사이렌 울리는 시간은 조정 가능한가요?",
+    "answer": "15초 또는 30초로 설정 가능합니다.",
+    "citations": [2992],
+    "tags": ["사이렌", "시간설정", "15초", "30초"]
+  },
+  {
+    "id": "q-071",
+    "number": 71,
+    "categoryId": "security",
+    "question": "안내 음성 볼륨 조절이 가능한가요?",
+    "answer": "무음, 낮음, 중간, 높음 4단계로 조절 가능합니다.",
+    "citations": [2998],
+    "tags": ["볼륨", "음성", "4단계"]
+  },
+  {
+    "id": "q-072",
+    "number": 72,
+    "categoryId": "security",
+    "question": "자동 보안 설정(스케줄링)은 어떻게 하나요?",
+    "answer": "요일별로 경비 시작/종료 시간을 설정하고 '매주 반복'을 체크하면 됩니다.",
+    "citations": [1326],
+    "tags": ["자동보안", "스케줄링", "요일별", "매주반복"]
+  },
+  {
+    "id": "q-073",
+    "number": 73,
+    "categoryId": "security",
+    "question": "24시간 상시 보안을 하려면?",
+    "answer": "자동 보안 설정에서 '24시간 보안'을 체크하거나 시작/종료 시간을 동일하게 설정합니다.",
+    "citations": [1356],
+    "tags": ["24시간보안", "상시보안", "자동보안"]
+  },
+  {
+    "id": "q-074",
+    "number": 74,
+    "categoryId": "security",
+    "question": "경비 중 문이 열리면 어떻게 되나요?",
+    "answer": "설정된 시간 동안 해제 유도 경보음이 울리고, 해제하지 않으면 사이렌이 울리며 출동 요청이 가능해집니다.",
+    "citations": [3164],
+    "tags": ["경비중", "문열림", "경보음", "출동요청"]
+  },
+  {
+    "id": "q-075",
+    "number": 75,
+    "categoryId": "security",
+    "question": "SOS 비상버튼을 누르면 어떻게 되나요?",
+    "answer": "캡스 상황실로 위급 신호가 전송되어 대원이 출동합니다.",
+    "citations": [4917],
+    "tags": ["SOS", "비상버튼", "상황실", "출동"]
+  },
+  {
+    "id": "q-076",
+    "number": 76,
+    "categoryId": "security",
+    "question": "출동 요청 시 비용이 발생하나요?",
+    "answer": "고객 요청에 의한 출동은 25,000원의 출동료가 부과될 수 있습니다.",
+    "citations": [290],
+    "tags": ["출동", "비용", "출동료", "25000원"]
+  },
+  {
+    "id": "q-077",
+    "number": 77,
+    "categoryId": "security",
+    "question": "앱에서 '보안 설정'이 안 눌러지는 이유는?",
+    "answer": "자석 감지기가 떨어져 있거나 문이 열린 상태로 인식될 경우 보안 설정이 실패합니다.",
+    "citations": [3971],
+    "tags": ["보안설정", "실패", "자석감지기", "문열림"]
+  },
+  {
+    "id": "q-078",
+    "number": 78,
+    "categoryId": "security",
+    "question": "'배회 감지' 기능은 무엇인가요?",
+    "answer": "설정된 시간(10~60초) 동안 현관 앞에 계속 움직임이 감지되면 알림을 보내는 기능입니다.",
+    "citations": [3091],
+    "tags": ["배회감지", "움직임", "알림", "현관"]
+  },
+  {
+    "id": "q-079",
+    "number": 79,
+    "categoryId": "ai-face",
+    "question": "얼굴인식 기능을 끄면 배터리가 절약되나요?",
+    "answer": "네, 얼굴인식 기능을 사용하면 배터리가 약 5% 추가 소모됩니다.",
+    "citations": [866],
+    "tags": ["얼굴인식", "배터리", "절약", "5%"]
+  },
+  {
+    "id": "q-080",
+    "number": 80,
+    "categoryId": "ai-face",
+    "question": "가족 얼굴은 몇 명까지, 몇 장 등록 가능한가요?",
+    "answer": "최대 10명까지, 사용자당 최대 10장의 사진을 등록할 수 있습니다.",
+    "citations": [1703],
+    "tags": ["얼굴등록", "10명", "10장", "가족"]
+  },
+  {
+    "id": "q-081",
+    "number": 81,
+    "categoryId": "ai-face",
+    "question": "앱을 설치하지 않은 가족도 등록 가능한가요?",
+    "answer": "네, '얼굴인식 이미지만 등록' 기능을 통해 등록 가능합니다.",
+    "citations": [1643],
+    "tags": ["얼굴등록", "앱미설치", "이미지등록"]
+  },
+  {
+    "id": "q-082",
+    "number": 82,
+    "categoryId": "ai-face",
+    "question": "얼굴 등록 방식은 어떤 것이 있나요?",
+    "answer": "셀카 촬영, 도어가드 직접 촬영, 기존 녹화 영상에서 캡처하기 등이 있습니다.",
+    "citations": [5291],
+    "tags": ["얼굴등록", "셀카", "촬영", "캡처"]
+  },
+  {
+    "id": "q-083",
+    "number": 83,
+    "categoryId": "ai-face",
+    "question": "얼굴 인식률을 높이려면 어떻게 해야 하나요?",
+    "answer": "다양한 조명(주간/야간)과 각도에서 찍은 사진을 여러 장 등록하고, 마스크나 선글라스는 벗고 등록하세요.",
+    "citations": [5283, 8739],
+    "tags": ["얼굴인식", "인식률", "조명", "각도", "마스크"]
+  },
+  {
+    "id": "q-084",
+    "number": 84,
+    "categoryId": "ai-face",
+    "question": "얼굴 인식이 되면 어떤 점이 좋은가요?",
+    "answer": "경비 중에도 등록된 가족은 경보음 없이 출입(Snooze)할 수 있고, 가족별 입/퇴실 알림을 받을 수 있습니다.",
+    "citations": [2279],
+    "tags": ["얼굴인식", "Snooze", "경보음", "입퇴실알림"]
+  },
+  {
+    "id": "q-085",
+    "number": 85,
+    "categoryId": "ai-face",
+    "question": "얼굴인식 성공/실패 알림음을 끌 수 있나요?",
+    "answer": "네, 설정에서 성공음/실패음 사용 여부를 선택할 수 있습니다.",
+    "citations": [3067],
+    "tags": ["얼굴인식", "알림음", "성공음", "실패음"]
+  },
+  {
+    "id": "q-086",
+    "number": 86,
+    "categoryId": "ai-face",
+    "question": "얼굴 인식 존(Zone)이 따로 있나요?",
+    "answer": "화면 중앙 4x7 그리드 영역이 얼굴 인식 존입니다.",
+    "citations": [3044],
+    "tags": ["얼굴인식", "인식존", "그리드", "영역"]
+  },
+  {
+    "id": "q-087",
+    "number": 87,
+    "categoryId": "ai-face",
+    "question": "프라이버시 마스킹을 중앙에 하면 어떻게 되나요?",
+    "answer": "얼굴 인식 존을 가리게 되어 얼굴 인식 기능이 작동하지 않을 수 있습니다.",
+    "citations": [3044],
+    "tags": ["프라이버시마스킹", "얼굴인식", "중앙", "작동불가"]
+  },
+  {
+    "id": "q-088",
+    "number": 88,
+    "categoryId": "ai-face",
+    "question": "AI 민감도 설정 기준은?",
+    "answer": "'낮음'은 근거리 정확도 향상, '높음'은 원거리 검출 및 어두운 환경에 유리합니다.",
+    "citations": [3077],
+    "tags": ["AI민감도", "근거리", "원거리", "정확도"]
+  },
+  {
+    "id": "q-089",
+    "number": 89,
+    "categoryId": "sos",
+    "question": "SOS 비상버튼 등록 방법은?",
+    "answer": "페어링 버튼을 5초간 눌러 등록 모드로 진입 후, 앱에서 연결합니다.",
+    "citations": [7732],
+    "tags": ["SOS", "비상버튼", "등록", "페어링", "5초"]
+  },
+  {
+    "id": "q-090",
+    "number": 90,
+    "categoryId": "sos",
+    "question": "SmartConfig 등록 방식은 무엇인가요?",
+    "answer": "스마트폰이 Wi-Fi에 연결된 상태에서 자동으로 Wi-Fi 정보를 비상버튼에 넘겨주어 등록하는 방식입니다.",
+    "citations": [7827],
+    "tags": ["SmartConfig", "Wi-Fi", "자동등록"]
+  },
+  {
+    "id": "q-091",
+    "number": 91,
+    "categoryId": "sos",
+    "question": "SOS 버튼 초기화 방법은?",
+    "answer": "페어링 버튼을 20초간 길게 누르면 LED가 5회 점멸하며 초기화됩니다.",
+    "citations": [7731],
+    "tags": ["SOS", "초기화", "20초", "LED점멸"]
+  },
+  {
+    "id": "q-092",
+    "number": 92,
+    "categoryId": "sos",
+    "question": "SOS 버튼은 도어가드와 멀리 있어도 되나요?",
+    "answer": "도어가드와 동일한 2.4GHz Wi-Fi 공유기에 연결되어야 하므로, Wi-Fi 신호가 닿는 곳에 있어야 합니다.",
+    "citations": [7928],
+    "tags": ["SOS", "Wi-Fi", "신호범위", "거리"]
+  },
+  {
+    "id": "q-093",
+    "number": 93,
+    "categoryId": "sos",
+    "question": "비상버튼 작동 테스트는 어떻게 하나요?",
+    "answer": "버튼을 눌러 관제실에 'PANIC' 신호가 접수되는지 확인합니다 (설치 시 필수 점검).",
+    "citations": [4917],
+    "tags": ["비상버튼", "테스트", "PANIC", "관제실"]
+  },
+  {
+    "id": "q-094",
+    "number": 94,
+    "categoryId": "troubleshooting",
+    "question": "기기 등록 모드(AP)가 자꾸 꺼집니다.",
+    "answer": "등록 모드는 5분간만 유지되므로, 5분 내에 연결하지 못하면 다시 버튼을 눌러 진입해야 합니다.",
+    "citations": [3134],
+    "tags": ["AP모드", "등록모드", "5분", "타임아웃"]
+  },
+  {
+    "id": "q-095",
+    "number": 95,
+    "categoryId": "troubleshooting",
+    "question": "배터리 교체 알림은 언제 오나요?",
+    "answer": "배터리 잔량이 20% 이하로 떨어지면 고객 앱으로 알림이 옵니다.",
+    "citations": [2565],
+    "tags": ["배터리", "교체알림", "20%", "잔량"]
+  },
+  {
+    "id": "q-096",
+    "number": 96,
+    "categoryId": "troubleshooting",
+    "question": "배터리가 너무 빨리 닳아요.",
+    "answer": "유동 인구가 많아 촬영 빈도가 높거나, Wi-Fi 신호가 약해 접속 시도가 잦거나, AI 기능을 사용하는 경우 소모가 빠릅니다.",
+    "citations": [2568],
+    "tags": ["배터리", "빠른소모", "촬영빈도", "Wi-Fi", "AI기능"]
+  },
+  {
+    "id": "q-097",
+    "number": 97,
+    "categoryId": "troubleshooting",
+    "question": "앱에서 '기기 단선'이라고 뜹니다.",
+    "answer": "공유기 전원이 꺼졌거나 Wi-Fi 신호가 약한 경우입니다. 공유기와 도어가드를 재부팅해 보세요.",
+    "citations": [1399],
+    "tags": ["기기단선", "공유기", "재부팅", "Wi-Fi"]
+  },
+  {
+    "id": "q-098",
+    "number": 98,
+    "categoryId": "troubleshooting",
+    "question": "LED가 빨간색으로 깜빡거립니다. 무슨 뜻인가요?",
+    "answer": "인터넷 연결이 끊어졌거나 장애가 발생한 상태입니다.",
+    "citations": [3261],
+    "tags": ["LED", "빨간색", "깜빡임", "연결끊김", "장애"]
+  },
+  {
+    "id": "q-099",
+    "number": 99,
+    "categoryId": "troubleshooting",
+    "question": "LED가 빨간색으로 계속 켜져 있습니다.",
+    "answer": "배터리가 부족한 상태(Low Battery)입니다. 건전지를 교체하세요.",
+    "citations": [3261],
+    "tags": ["LED", "빨간색", "배터리부족", "건전지교체"]
+  },
+  {
+    "id": "q-100",
+    "number": 100,
+    "categoryId": "troubleshooting",
+    "question": "앱 로그인 화면 글자가 겹쳐서 안 눌려요.",
+    "answer": "스마트폰 설정에서 '글자 크기'나 '화면 확대'가 너무 크게 설정된 경우입니다. 설정을 줄여주세요.",
+    "citations": [3979],
+    "tags": ["앱", "로그인", "글자크기", "화면확대", "겹침"]
+  }
+]
+
